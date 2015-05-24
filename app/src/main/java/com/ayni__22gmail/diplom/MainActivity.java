@@ -68,6 +68,8 @@ public class MainActivity extends ActionBarActivity
                 mTitle = getString(R.string.title_section3);
                 break;
 
+
+
         }
     }
 
