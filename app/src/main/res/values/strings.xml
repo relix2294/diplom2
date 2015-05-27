@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Diplom</string>
 
-    <string name="title_section1">Аптечка</string>
-    <string name="title_section2">Рекомендации</string>
-    <string name="title_section3">Напоминания</string>
-
+    <string name="title_section1"> Аптечка</string>
+    <string name="title_section2"> Рекомендации</string>
+    <string name="title_section3"> Напоминания</string>
+    <string name="title_section4"> Настройки</string>
+    <string name="title_section5"> Выход</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

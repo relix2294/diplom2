@@ -1,4 +1,5 @@
 package com.ayni__22gmail.diplom;
+//import android.app.Fragment;
 
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
@@ -50,9 +51,23 @@ public class MainActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
+        Fragment objFragment = null;
+        switch (position)
+        {
+            case 0:
+                objFragment = new aptechka();
+                break;
+            case 1:
+                objFragment = new recomend();
+
+
+                break;
+            case 2:
+                break;
+        }
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                .replace(R.id.container, objFragment)
                 .commit();
     }
 
