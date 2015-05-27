@@ -38,6 +38,7 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -59,10 +60,12 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 1:
                 objFragment = new recomend();
-
-
                 break;
             case 2:
+                objFragment = new napom();
+                break;
+            case 3:
+                objFragment = new settings();
                 break;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();
