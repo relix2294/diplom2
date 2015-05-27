@@ -39,12 +39,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Уведомление по"
+        android:text="Громкость"
         android:id="@+id/textView5"
         android:textSize="30dp"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/textView7"
-        android:layout_alignStart="@+id/textView7" />
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginLeft="30dp" />
 
     <CheckBox
         android:layout_width="wrap_content"
